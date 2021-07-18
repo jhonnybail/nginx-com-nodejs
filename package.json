@@ -1,0 +1,34 @@
+{
+  "name": "nginx-com-nodejs",
+  "version": "1.0.0",
+  "description": "Desafio Code.Education: Nginx com Node.js",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonnybail/nginx-com-nodejs.git"
+  },
+  "keywords": [
+    "code.education",
+    "nodejs",
+    "nginx",
+    "mysql"
+  ],
+  "author": "Jonathan Bogdanovicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonnybail/nginx-com-nodejs/issues"
+  },
+  "homepage": "https://github.com/jhonnybail/nginx-com-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.2.0"
+  }
+}
